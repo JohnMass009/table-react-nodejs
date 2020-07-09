@@ -1,0 +1,62 @@
+.filter {
+  background-color: #a8a8a8;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #6c757d;
+
+  &__form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__param {
+    margin: 0 15px 0 0;
+    padding: 5px;
+  }
+
+  &__list {
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px 5px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+    &.error {
+      border: 1px solid red;
+    }
+
+  }
+
+  &__input {
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+    &.error {
+      border: 1px solid red;
+    }
+  }
+
+  &__button {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #86beff;
+    text-decoration:none;
+    transition-duration: 0.4s;
+
+    &:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  }
+}

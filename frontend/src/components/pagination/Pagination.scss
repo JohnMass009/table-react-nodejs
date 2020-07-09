@@ -1,0 +1,30 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__btn {
+    width: 30%;
+    border: 1px solid #6c757d;
+  }
+
+  &__center {
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__page-info {
+    padding: 5px 0;
+  }
+
+  &__input {
+    max-width: 100px;
+    padding-left: 10px;
+  }
+
+  &__input, &__total-pages {
+    margin: 0 10px;
+  }
+}
